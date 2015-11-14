@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :comments
+  resources :comments
   resources :recipes
   get 'pages/info'
 
